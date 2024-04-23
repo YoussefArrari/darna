@@ -1,0 +1,91 @@
+body {
+  background-color: #fbfbfb;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: fit-content;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
+main {
+  display: flex;
+  width: 80%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.goback {
+  position: absolute;
+  left: 0;
+  top: 40px;
+  display: flex;
+  text-decoration: none;
+  color: #313030;
+  font: 700 16px "Roboto", sans-serif;
+  gap: 10px;
+  border-bottom: 2px solid #313030;
+  justify-content: center;
+  padding-bottom: 4px;
+}
+.goback:hover {
+  color: #767474;
+  border-bottom: 2px solid #767474;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+form input:not([type="file"]) {
+  width: 100%;
+  height: 40px;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  border: 1px solid #313030;
+}
+form button {
+  width: 100%;
+  height: 40px;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #313030;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+form button:hover {
+  background-color: #444343;
+}
+form textarea {
+  width: 100%;
+  height: 100px;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  border: 1px solid #313030;
+}
+.success-message {
+  background-color: rgb(67, 236, 67);
+  font: 700 1em "Roboto", sans-serif;
+  padding: 14px;
+  border-radius: 5px;
+  color: white;
+  margin-bottom: 16px;
+}
